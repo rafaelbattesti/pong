@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+  </head>
+
+  <!-- Run animate() onload and moveSelection(event) onkeydown -->
+  <body onload="animate()" onkeydown="moveSelection(event)" onkeyup="">
+    
+    <!-- Screen elements (ball, bars, scoreboards, midfield line) -->
+    <div id="midfield"></div>
+    <div id="ball"></div>
+    <div id="leftBar"></div>
+    <div id="rightBar"></div>
+    <label id="leftScore">0</label>
+    <label id="rightScore">0</label>
+
+    <!-- Audio elements -->
+    <audio id="hitBarSound">
+      <source src="../media/4365__noisecollector__pongblipa5.wav" type="audio/wav"/>
+    </audio>
+    <audio id="hitWallSound">
+      <source src="../media/4378__noisecollector__pongblipg4.wav" type="audio/wav"/>
+    </audio>
+  </body>
+  
+</html>

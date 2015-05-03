@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+
+  <!-- Run playIntroSound() onload -->
+  <body onload="playIntroSound()">
+    
+    <!-- Screen elements -->
+    <label id="title">
+      Pong
+    </label>
+    <a id="pressStart" href="content/game.html" onmouseover="playPressStartSound()">
+      Press Start
+    </a>
+
+    <!-- Audio elements -->
+    <audio id="introSound">
+      <source src="media/144131__milton__gamesound-1.wav" type="audio/wav"/>
+    </audio>
+    <audio id="pressStartSound">
+      <source src="media/243020__plasterbrain__game-start.ogg" type="audio/ogg"/>
+    </audio>
+  </body>
+</html>
